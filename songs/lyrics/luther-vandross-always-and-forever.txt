@@ -1,23 +1,61 @@
 <h4>[Verse 1]</h4>
-<p class="verse">
-  Always and forever<br/>
-  Each moment with you, yeah<br/>
-  Is just like a dream to me<br/>
-  That somehow came true, yeah<br/>
-  And I know tomorrow<br/>
-  Will still be the same<br/>
-  'Cause we got a life of love<br/>
-  That won't ever change and
-</p>
+        <p class="verse">
+            Always and forever<br/>
+            Each moment with you, yeah<br/>
+            Is just like a dream to me<br/>
+            That somehow came true, yeah<br/>
+            And I know tomorrow<br/>
+            Will still be the same<br/>
+            'Cause we got a life of love<br/>
+            That won't ever change and
+        </p>
 
-<h4>[Chorus]</h4>
-<p class="chorus">
-  Every day, love me your own special way<br/>
-  Melt all my heart away with a smile<br/>
-  Take time to tell me you really care<br/>
-  And we'll share tomorrow together<br/>
-  (Always forever love you)<br/>
-  Ooh, baby, I'll always love you forever<br/>
-  (Always forever love you)<br/>
-  Ever, ever, ever
-</p>
+        <h4>[Chorus]</h4>
+        <p class="chorus">
+            Every day, love me your own special way<br/>
+            Melt all my heart away with a smile<br/>
+            Take time to tell me you really care<br/>
+            And we'll share tomorrow together<br/>
+            (Always forever love you)<br/>
+            Ooh, baby, I'll always love you forever<br/>
+            (Always forever love you)<br/>
+            Ever, ever, ever
+        </p>
+
+        <h4>[Verse 2]</h4>
+        <p class="verse">
+            There'll always be sunshine<br/>
+            When I look at you, yeah<br/>
+            It's something I can't explain<br/>
+            Just the things that you do (Ooh, baby)<br/>
+            If you get lonely<br/>
+            Call me and take<br/>
+            A second to give to me<br/>
+            That magic you make and
+        </p>
+
+        <h4>[Outro Chorus]</h4>
+        <p class="outro">
+            Every day, love me your own special way<br/>
+            Melt all my heart away with a smile<br/>
+            Take time to tell me you really care<br/>
+            And we'll share tomorrow together<br/>
+            (Always forever love you)<br/>
+            Baby, baby, I'll always love you forever<br/>
+            (Always forever love you)<br/>
+            Ooh, baby, ooh, baby, yeah, baby, yeah, baby, forever<br/>
+            (Always forever love you)<br/>
+            Love you, love you, you, you, always<br/>
+            (Always forever love you)<br/>
+            Always, ever, ever, ever, forever<br/>
+            (Always forever love you)<br/>
+            And oh, yeah, oh, ooh<br/>
+            (Always forever love you)<br/>
+            Love you, ever, ever, ever, and always I<br/>
+            (Always forever love you)<br/>
+            Ever, ever, ever, yes, I'm the one who<br/>
+            (Always forever love you)<br/>
+            Yes, I'm the one who loves you, always<br/>
+            (Always forever love you)<br/>
+            And forever, I love you
+        </p>
