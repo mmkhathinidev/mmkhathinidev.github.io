@@ -57,10 +57,10 @@ async function loadSong(index) {
         console.log("📜 Lyrics loaded successfully");
 
         // Auto-play with error handling
-        audioPlayer.play().catch(error => {
+        /*audioPlayer.play().catch(error => {
             console.warn("Autoplay blocked:", error);
             alert("Click anywhere on the page to start playback!");
-        });
+        });*/
 
     } catch (error) {
         console.error("🚨 Song loading error:", error);
