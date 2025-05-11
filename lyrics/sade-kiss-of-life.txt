@@ -1,0 +1,92 @@
+<h4>[Verse 1]</h4>
+<p class="verse">
+  There must have been an angel by my side<br />
+  Something heavenly led me to you<br />
+  Look at the sky<br />
+  It's the colour of love<br />
+  There must have been an angel by my side<br />
+  Something heavenly came down from above<br />
+  He led me to you<br />
+  He led me to you
+</p>
+
+<h4>[Bridge]</h4>
+<p class="bridge">
+  He built a bridge to your heart<br />
+  All the way<br />
+  How many tonnes of love inside?<br />
+  I can't say
+</p>
+
+<h4>[Verse 2]</h4>
+<p class="verse">
+  When I was led to you<br />
+  I knew you were the one for me<br />
+  I swear the whole world could feel my heartbeat<br />
+  When I lay eyes on you<br />
+  I-I-I-I-I<br />
+  You wrap me up in<br />
+  The colour of love
+</p>
+
+<h4>[Chorus]</h4>
+<p class="chorus">
+  You gave me the kiss of life<br />
+  Kiss of life<br />
+  You gave me the kiss that's like<br />
+  Kiss of life
+</p>
+
+<h4>[Saxophone Solo]</h4>
+<p class="instrumental"></p>
+
+<h4>[Verse 3]</h4>
+<p class="verse">
+  Wasn't it clear<br />
+  From the start?<br />
+  Look the sky is full of love<br />
+  Yeah the sky is full of love
+</p>
+
+<h4>[Bridge]</h4>
+<p class="bridge">
+  He built a bridge to your heart<br />
+  All the way<br />
+  How many tonnes of love inside?<br />
+  I can't say
+</p>
+
+<h4>[Chorus]</h4>
+<p class="chorus">
+  You gave me the kiss of life<br />
+  Kiss of life<br />
+  You gave me the kiss that's like<br />
+  The kiss of life<br />
+  You gave me the kiss of life<br />
+  Kiss of life<br />
+  You gave me the kiss that's like<br />
+  The kiss of life
+</p>
+
+<h4>[Saxophone Solo]</h4>
+<p class="instrumental"></p>
+
+<h4>[Chorus]</h4>
+<p class="chorus">
+  You gave me the kiss of life<br />
+  Kiss of life (Oh yeah)<br />
+  You gave me the kiss that's like<br />
+  The kiss of life
+</p>
+
+<h4>[Outro]</h4>
+<p class="outro">
+  You wrapped me up in the colour of love<br />
+  In the moonlight, baby<br />
+  It must have been an angel came down from above<br />
+  Giving me love, yeah<br />
+  Giving me love, yeah<br />
+  You gave me the kiss of life<br />
+  Kiss of life<br />
+  You gave me the kiss of life
+</p>

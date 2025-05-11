@@ -10,6 +10,11 @@ const songs = [
         title: "I Can't Stop Loving You - Kem",
         src: "songs/kem-cant-stop-lovin-you.mp3",
         lyricsFile: "lyrics/kem-cant-stop-lovin-you.txt"
+    },
+    {
+        title: "Kiss Of Life - Sade",
+        src: "songs/sade-kiss-of-life.mp3",
+        lyricsFile: "lyrics/sade-kiss-of-life.txt"
     }
 ];
 
