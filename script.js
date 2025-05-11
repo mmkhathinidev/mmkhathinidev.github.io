@@ -19,10 +19,17 @@ async function loadSong(index) {
     const song = songs[index];
     audioPlayer.src = song.src;
 
+    // Split title correctly
+    const separatorIndex = song.title.lastIndexOf(" - ");
+    const songName = song.title.substring(0, separatorIndex);
+    const artist = song.title.substring(separatorIndex + 3);
+
     // Update header
-    const [songName, artist] = song.title.split(" - ");
     document.getElementById("songTitle").textContent = `❤️ ${songName} ❤️`;
     document.getElementById("songArtist").textContent = `by: ${artist}`;
+
+    // Rest of the function remains the same...
+}
 
     try {
         const response = await fetch(song.lyricsFile);
@@ -32,7 +39,7 @@ async function loadSong(index) {
     } catch (error) {
         console.error("Error loading lyrics:", error);
         lyricsContainer.innerHTML = "<p>Could not load lyrics. Please try again later.</p>";
-    }
+
 }
 
 function nextSong() {
