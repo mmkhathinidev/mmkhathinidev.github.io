@@ -6,9 +6,9 @@ const songs = [
         lyricsFile: "songs/lyrics/luther-vandross-always-and-forever.txt"
     },
     {
-        title: "Unchained Melody - The Righteous Brothers",
-        src: "songs/unchained-melody.mp3",
-        lyricsFile: "songs/lyrics/unchained-melody.txt"
+        title: "Kem - I Can't Stop Loving You",
+        src: "songs/kem-cant-stop-lovin-you.mp3",
+        lyricsFile: "songs/lyrics/kem-cant-stop-lovin-you.txt"
     }
 ];
 
