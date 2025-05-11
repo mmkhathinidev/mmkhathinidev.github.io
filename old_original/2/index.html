@@ -1,0 +1,252 @@
+ww<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Always and Forever</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background-color: #ffe6f0;
+            background-image: url('https://i.gifer.com/Ybra.gif');
+            background-repeat: repeat;
+            color: #cc0052;
+        }
+
+        header.songmetadata {
+            text-align: center;
+            padding: 20px;
+            background: #ffb6c1;
+            opacity: 70%;
+            border-bottom: 3px dashed #ff1493;
+        }
+
+        main {
+            max-width: 700px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .audioplayer {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .audioplayer audio {
+            width: 100%;
+        }
+
+        .songlyrics {
+            background: rgba(255, 255, 255, 0.85);
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #ff69b4;
+        }
+
+        .message-board {
+            margin-top: 40px;
+            background: #fff0f5;
+            padding: 20px;
+            border: 2px dashed #ff69b4;
+            border-radius: 10px;
+        }
+
+        .message-board input,
+        .message-board button {
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 8px;
+            font-size: 1em;
+        }
+
+        .messages-list {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .visitor-counter {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 1.2em;
+            color: #800020;
+        }
+
+        footer.credits {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+            color: #888;
+            background: #ffe6f0;
+        }
+    </style>
+</head>
+<body>
+
+<header class="songmetadata">
+    <h1>❤️ Always and Forever ❤️</h1>
+    <p>by: Luther Vandross</p>
+</header>
+
+<main>
+    <!-- Audio Player -->
+    <div class="audioplayer">
+        <audio id="audioPlayer" controls autoplay>
+            <source src="../../songs/luther-vandross-always-and-forever.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <br/>
+        <button onclick="prevSong()">⏮ Previous</button>
+        <button onclick="nextSong()">⏭ Next</button>
+    </div>
+
+    <!-- Lyrics Section -->
+    <div class="songlyrics">
+        <h4>[Verse 1]</h4>
+        <p class="verse">
+            Always and forever<br/>
+            Each moment with you, yeah<br/>
+            Is just like a dream to me<br/>
+            That somehow came true, yeah<br/>
+            And I know tomorrow<br/>
+            Will still be the same<br/>
+            'Cause we got a life of love<br/>
+            That won't ever change and
+        </p>
+
+        <h4>[Chorus]</h4>
+        <p class="chorus">
+            Every day, love me your own special way<br/>
+            Melt all my heart away with a smile<br/>
+            Take time to tell me you really care<br/>
+            And we'll share tomorrow together<br/>
+            (Always forever love you)<br/>
+            Ooh, baby, I'll always love you forever<br/>
+            (Always forever love you)<br/>
+            Ever, ever, ever
+        </p>
+
+        <h4>[Verse 2]</h4>
+        <p class="verse">
+            There'll always be sunshine<br/>
+            When I look at you, yeah<br/>
+            It's something I can't explain<br/>
+            Just the things that you do (Ooh, baby)<br/>
+            If you get lonely<br/>
+            Call me and take<br/>
+            A second to give to me<br/>
+            That magic you make and
+        </p>
+
+        <h4>[Outro Chorus]</h4>
+        <p class="outro">
+            Every day, love me your own special way<br/>
+            Melt all my heart away with a smile<br/>
+            Take time to tell me you really care<br/>
+            And we'll share tomorrow together<br/>
+            (Always forever love you)<br/>
+            Baby, baby, I'll always love you forever<br/>
+            (Always forever love you)<br/>
+            Ooh, baby, ooh, baby, yeah, baby, yeah, baby, forever<br/>
+            (Always forever love you)<br/>
+            Love you, love you, you, you, always<br/>
+            (Always forever love you)<br/>
+            Always, ever, ever, ever, forever<br/>
+            (Always forever love you)<br/>
+            And oh, yeah, oh, ooh<br/>
+            (Always forever love you)<br/>
+            Love you, ever, ever, ever, and always I<br/>
+            (Always forever love you)<br/>
+            Ever, ever, ever, yes, I'm the one who<br/>
+            (Always forever love you)<br/>
+            Yes, I'm the one who loves you, always<br/>
+            (Always forever love you)<br/>
+            And forever, I love you
+        </p>
+    </div>
+
+    <!-- Message Board -->
+    <div class="message-board">
+        <h3>💬 Leave a Sweet Note</h3>
+        <form id="messageForm">
+            <input type="text" id="nameInput" placeholder="Your Name" required>
+            <input type="text" id="messageInput" placeholder="Write something sweet..." required>
+            <button type="submit">Send 💖</button>
+        </form>
+
+        <ul id="messagesList"></ul>
+    </div>
+
+    <!-- Visitor Counter -->
+    <div class="visitor-counter">
+        👤 Visitors: <span id="counter">0</span>
+    </div>
+</main>
+
+<footer class="credits">
+    <p>Lyrics sourced from <a href="https://genius.com/Luther-vandross-always-and-forever-lyrics " target="_blank">Genius</a></p>
+    <p>© 2025 Culolethu. Made with 💙 during long-distance love.</p>
+</footer>
+
+<!-- JavaScript Logic -->
+<script>
+    // Song playlist
+    const songs = [
+        {
+            title: "Always and Forever - Luther Vandross",
+            src: "songs/luther-vandross-always-and-forever.mp3"
+        },
+        {
+            title: "Unchained Melody - The Righteous Brothers",
+            src: "songs/unchained-melody.mp3"
+        }
+    ];
+
+    let currentSongIndex = 0;
+    const audioPlayer = document.getElementById("audioPlayer");
+
+    function loadSong(index) {
+        const song = songs[index];
+        audioPlayer.src = song.src;
+        audioPlayer.play();
+    }
+
+    function nextSong() {
+        currentSongIndex = (currentSongIndex + 1) % songs.length;
+        loadSong(currentSongIndex);
+    }
+
+    function prevSong() {
+        currentSongIndex = (currentSongIndex - 1 + songs.length) % songs.length;
+        loadSong(currentSongIndex);
+    }
+
+    loadSong(currentSongIndex);
+
+    // Message board logic
+    const messageForm = document.getElementById("messageForm");
+    const messagesList = document.getElementById("messagesList");
+
+    messageForm.addEventListener("submit", function(e) {
+        e.preventDefault();
+        const name = document.getElementById("nameInput").value;
+        const message = document.getElementById("messageInput").value;
+
+        const li = document.createElement("li");
+        li.innerHTML = `<strong>${name}</strong>: ${message}`;
+        messagesList.appendChild(li);
+
+        messageForm.reset();
+    });
+
+    // Simple visitor counter
+    let count = localStorage.getItem("visitorCount") || 0;
+    count++;
+    localStorage.setItem("visitorCount", count);
+    document.getElementById("counter").textContent = count;
+</script>
+
+</body>
+</html>
