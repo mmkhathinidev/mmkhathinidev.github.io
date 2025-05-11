@@ -23,7 +23,63 @@ body {
 
 .songlyrics {
     background: rgba(255, 255, 255, 0.85);
-    padding: 15px;
+    padding: 15px;* {
+    box-sizing: border-box;
+}
+
+    body {
+        margin: 0;
+        font-family: 'Comic Sans MS', cursive, sans-serif;
+        background-color: #ffe6f0;
+        color: #cc0052;
+    }
+
+    .songmetadata {
+        text-align: center;
+        padding: 20px;
+        background: #ffb6c1;
+        border-bottom: 3px dashed #ff1493;
+    }
+
+    .audioplayer {
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .songlyrics {
+        background: rgba(255, 255, 255, 0.85);
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px #ff69b4;
+        margin: 20px auto;
+        max-width: 700px;
+    }
+
+    .message-board {
+        margin-top: 40px;
+        background: #fff0f5;
+        padding: 20px;
+        border: 2px dashed #ff69b4;
+        border-radius: 10px;
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .visitor-counter {
+        text-align: center;
+        margin-top: 30px;
+        font-size: 1.2em;
+        color: #800020;
+    }
+
+    .credits {
+        text-align: center;
+        padding: 20px;
+        font-size: 0.9em;
+        color: #888;
+        background: #ffe6f0;
+    }
     border-radius: 10px;
     box-shadow: 0 0 10px #ff69b4;
     margin: 20px auto;

@@ -84,15 +84,17 @@
     </style>
 </head>
 <body>
+
 <header class="songmetadata">
-    <h1 id="songTitle">❤️ Loading... ❤️</h1>
-    <p id="songArtist">by: </p>
+    <h1>❤️ Always and Forever ❤️</h1>
+    <p>by: Luther Vandross</p>
 </header>
 
 <main>
+    <!-- Audio Player -->
     <div class="audioplayer">
         <audio id="audioPlayer" controls autoplay>
-            <source src="" type="audio/mpeg">
+            <source src="songs/luther-vandross-always-and-forever.mp3" type="audio/mpeg">
             Your browser does not support the audio element.
         </audio>
         <br/>
@@ -100,10 +102,12 @@
         <button onclick="nextSong()">⏭ Next</button>
     </div>
 
+    <!-- Lyrics Section -->
     <div class="songlyrics">
         <p id="loadingMessage">🎵 Loading lyrics... ❤️</p>
     </div>
 
+    <!-- Message Board -->
     <div class="message-board">
         <h3>💬 Leave a Sweet Note</h3>
         <form id="messageForm">
@@ -111,19 +115,23 @@
             <input type="text" id="messageInput" placeholder="Write something sweet..." required>
             <button type="submit">Send 💖</button>
         </form>
+
         <ul id="messagesList"></ul>
     </div>
 
+    <!-- Visitor Counter -->
     <div class="visitor-counter">
         👤 Visitors: <span id="counter">0</span>
     </div>
 </main>
 
 <footer class="credits">
-    <p>Lyrics sourced from <a href="https://genius.com/Luther-vandross-always-and-forever-lyrics" target="_blank">Genius</a></p>
+    <p>Lyrics sourced from <a href="https://genius.com/Luther-vandross-always-and-forever-lyrics " target="_blank">Genius</a></p>
     <p>© 2025 Culolethu. Made with 💙 during long-distance love.</p>
 </footer>
 
+<!-- JavaScript Logic -->
 <script src="script.js"></script>
+
 </body>
 </html>
